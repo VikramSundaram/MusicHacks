@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C54E2F41EA2840F009BEDB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54E2F31EA2840F009BEDB0 /* AppDelegate.swift */; };
+		1C54E2F61EA2840F009BEDB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54E2F51EA2840F009BEDB0 /* ViewController.swift */; };
+		1C54E2F91EA28410009BEDB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C54E2F71EA28410009BEDB0 /* Main.storyboard */; };
+		1C54E2FB1EA28410009BEDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C54E2FA1EA28410009BEDB0 /* Assets.xcassets */; };
+		1C54E2FE1EA28410009BEDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C54E2FC1EA28410009BEDB0 /* LaunchScreen.storyboard */; };
+		1C54E3091EA28410009BEDB0 /* PrizmizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54E3081EA28410009BEDB0 /* PrizmizerTests.swift */; };
+		1C54E3141EA28410009BEDB0 /* PrizmizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54E3131EA28410009BEDB0 /* PrizmizerUITests.swift */; };
+		1C54E3221EA28777009BEDB0 /* eigengrau.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C54E3211EA28777009BEDB0 /* eigengrau.png */; };
+		1CBC13791EA28F1400C1BB88 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBC13781EA28F1400C1BB88 /* AudioKit.framework */; };
+		1CBC137A1EA28F1400C1BB88 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBC13781EA28F1400C1BB88 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C54E3051EA28410009BEDB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C54E2E81EA2840F009BEDB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C54E2EF1EA2840F009BEDB0;
+			remoteInfo = Prizmizer;
+		};
+		1C54E3101EA28410009BEDB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C54E2E81EA2840F009BEDB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C54E2EF1EA2840F009BEDB0;
+			remoteInfo = Prizmizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CBC137B1EA28F1400C1BB88 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1CBC137A1EA28F1400C1BB88 /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C54E2F01EA2840F009BEDB0 /* Prizmizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prizmizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C54E2F31EA2840F009BEDB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C54E2F51EA2840F009BEDB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C54E2F81EA28410009BEDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C54E2FA1EA28410009BEDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C54E2FD1EA28410009BEDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C54E2FF1EA28410009BEDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C54E3041EA28410009BEDB0 /* PrizmizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrizmizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C54E3081EA28410009BEDB0 /* PrizmizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizmizerTests.swift; sourceTree = "<group>"; };
+		1C54E30A1EA28410009BEDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C54E30F1EA28410009BEDB0 /* PrizmizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrizmizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C54E3131EA28410009BEDB0 /* PrizmizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizmizerUITests.swift; sourceTree = "<group>"; };
+		1C54E3151EA28410009BEDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C54E3211EA28777009BEDB0 /* eigengrau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eigengrau.png; sourceTree = "<group>"; };
+		1C54E3241EA28C04009BEDB0 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = "../AudioKit/Frameworks/AudioKit-iOS/AudioKit.framework"; sourceTree = "<group>"; };
+		1CBC13361EA28D3E00C1BB88 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = "../AudioKit/Frameworks/AudioKit-iOS/AudioKit.framework"; sourceTree = "<group>"; };
+		1CBC13781EA28F1400C1BB88 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C54E2ED1EA2840F009BEDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBC13791EA28F1400C1BB88 /* AudioKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C54E3011EA28410009BEDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C54E30C1EA28410009BEDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C54E2E71EA2840F009BEDB0 = {
+			isa = PBXGroup;
+			children = (
+				1CBC13781EA28F1400C1BB88 /* AudioKit.framework */,
+				1CBC13361EA28D3E00C1BB88 /* AudioKit.framework */,
+				1C54E3211EA28777009BEDB0 /* eigengrau.png */,
+				1C54E2F21EA2840F009BEDB0 /* Prizmizer */,
+				1C54E3071EA28410009BEDB0 /* PrizmizerTests */,
+				1C54E3121EA28410009BEDB0 /* PrizmizerUITests */,
+				1C54E2F11EA2840F009BEDB0 /* Products */,
+				1C54E3231EA28C04009BEDB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C54E2F11EA2840F009BEDB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C54E2F01EA2840F009BEDB0 /* Prizmizer.app */,
+				1C54E3041EA28410009BEDB0 /* PrizmizerTests.xctest */,
+				1C54E30F1EA28410009BEDB0 /* PrizmizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C54E2F21EA2840F009BEDB0 /* Prizmizer */ = {
+			isa = PBXGroup;
+			children = (
+				1C54E2F31EA2840F009BEDB0 /* AppDelegate.swift */,
+				1C54E2F51EA2840F009BEDB0 /* ViewController.swift */,
+				1C54E2F71EA28410009BEDB0 /* Main.storyboard */,
+				1C54E2FA1EA28410009BEDB0 /* Assets.xcassets */,
+				1C54E2FC1EA28410009BEDB0 /* LaunchScreen.storyboard */,
+				1C54E2FF1EA28410009BEDB0 /* Info.plist */,
+			);
+			path = Prizmizer;
+			sourceTree = "<group>";
+		};
+		1C54E3071EA28410009BEDB0 /* PrizmizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C54E3081EA28410009BEDB0 /* PrizmizerTests.swift */,
+				1C54E30A1EA28410009BEDB0 /* Info.plist */,
+			);
+			path = PrizmizerTests;
+			sourceTree = "<group>";
+		};
+		1C54E3121EA28410009BEDB0 /* PrizmizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C54E3131EA28410009BEDB0 /* PrizmizerUITests.swift */,
+				1C54E3151EA28410009BEDB0 /* Info.plist */,
+			);
+			path = PrizmizerUITests;
+			sourceTree = "<group>";
+		};
+		1C54E3231EA28C04009BEDB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C54E3241EA28C04009BEDB0 /* AudioKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C54E2EF1EA2840F009BEDB0 /* Prizmizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C54E3181EA28410009BEDB0 /* Build configuration list for PBXNativeTarget "Prizmizer" */;
+			buildPhases = (
+				1C54E2EC1EA2840F009BEDB0 /* Sources */,
+				1C54E2ED1EA2840F009BEDB0 /* Frameworks */,
+				1C54E2EE1EA2840F009BEDB0 /* Resources */,
+				1CBC137B1EA28F1400C1BB88 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prizmizer;
+			productName = Prizmizer;
+			productReference = 1C54E2F01EA2840F009BEDB0 /* Prizmizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C54E3031EA28410009BEDB0 /* PrizmizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C54E31B1EA28410009BEDB0 /* Build configuration list for PBXNativeTarget "PrizmizerTests" */;
+			buildPhases = (
+				1C54E3001EA28410009BEDB0 /* Sources */,
+				1C54E3011EA28410009BEDB0 /* Frameworks */,
+				1C54E3021EA28410009BEDB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C54E3061EA28410009BEDB0 /* PBXTargetDependency */,
+			);
+			name = PrizmizerTests;
+			productName = PrizmizerTests;
+			productReference = 1C54E3041EA28410009BEDB0 /* PrizmizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C54E30E1EA28410009BEDB0 /* PrizmizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C54E31E1EA28410009BEDB0 /* Build configuration list for PBXNativeTarget "PrizmizerUITests" */;
+			buildPhases = (
+				1C54E30B1EA28410009BEDB0 /* Sources */,
+				1C54E30C1EA28410009BEDB0 /* Frameworks */,
+				1C54E30D1EA28410009BEDB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C54E3111EA28410009BEDB0 /* PBXTargetDependency */,
+			);
+			name = PrizmizerUITests;
+			productName = PrizmizerUITests;
+			productReference = 1C54E30F1EA28410009BEDB0 /* PrizmizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C54E2E81EA2840F009BEDB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "VKTRY Studios";
+				TargetAttributes = {
+					1C54E2EF1EA2840F009BEDB0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E73QK8539D;
+						ProvisioningStyle = Automatic;
+					};
+					1C54E3031EA28410009BEDB0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C54E2EF1EA2840F009BEDB0;
+					};
+					1C54E30E1EA28410009BEDB0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C54E2EF1EA2840F009BEDB0;
+					};
+				};
+			};
+			buildConfigurationList = 1C54E2EB1EA2840F009BEDB0 /* Build configuration list for PBXProject "Prizmizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C54E2E71EA2840F009BEDB0;
+			productRefGroup = 1C54E2F11EA2840F009BEDB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C54E2EF1EA2840F009BEDB0 /* Prizmizer */,
+				1C54E3031EA28410009BEDB0 /* PrizmizerTests */,
+				1C54E30E1EA28410009BEDB0 /* PrizmizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C54E2EE1EA2840F009BEDB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C54E2FE1EA28410009BEDB0 /* LaunchScreen.storyboard in Resources */,
+				1C54E2FB1EA28410009BEDB0 /* Assets.xcassets in Resources */,
+				1C54E2F91EA28410009BEDB0 /* Main.storyboard in Resources */,
+				1C54E3221EA28777009BEDB0 /* eigengrau.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C54E3021EA28410009BEDB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C54E30D1EA28410009BEDB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C54E2EC1EA2840F009BEDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C54E2F61EA2840F009BEDB0 /* ViewController.swift in Sources */,
+				1C54E2F41EA2840F009BEDB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C54E3001EA28410009BEDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C54E3091EA28410009BEDB0 /* PrizmizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C54E30B1EA28410009BEDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C54E3141EA28410009BEDB0 /* PrizmizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C54E3061EA28410009BEDB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C54E2EF1EA2840F009BEDB0 /* Prizmizer */;
+			targetProxy = 1C54E3051EA28410009BEDB0 /* PBXContainerItemProxy */;
+		};
+		1C54E3111EA28410009BEDB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C54E2EF1EA2840F009BEDB0 /* Prizmizer */;
+			targetProxy = 1C54E3101EA28410009BEDB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C54E2F71EA28410009BEDB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C54E2F81EA28410009BEDB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C54E2FC1EA28410009BEDB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C54E2FD1EA28410009BEDB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C54E3161EA28410009BEDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C54E3171EA28410009BEDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C54E3191EA28410009BEDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E73QK8539D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Prizmizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vikram-vamsi.Prizmizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1C54E31A1EA28410009BEDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E73QK8539D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Prizmizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vikram-vamsi.Prizmizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1C54E31C1EA28410009BEDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrizmizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vikram-vamsi.PrizmizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prizmizer.app/Prizmizer";
+			};
+			name = Debug;
+		};
+		1C54E31D1EA28410009BEDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrizmizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vikram-vamsi.PrizmizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prizmizer.app/Prizmizer";
+			};
+			name = Release;
+		};
+		1C54E31F1EA28410009BEDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PrizmizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vikram-vamsi.PrizmizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Prizmizer;
+			};
+			name = Debug;
+		};
+		1C54E3201EA28410009BEDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PrizmizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vikram-vamsi.PrizmizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Prizmizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C54E2EB1EA2840F009BEDB0 /* Build configuration list for PBXProject "Prizmizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C54E3161EA28410009BEDB0 /* Debug */,
+				1C54E3171EA28410009BEDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C54E3181EA28410009BEDB0 /* Build configuration list for PBXNativeTarget "Prizmizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C54E3191EA28410009BEDB0 /* Debug */,
+				1C54E31A1EA28410009BEDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C54E31B1EA28410009BEDB0 /* Build configuration list for PBXNativeTarget "PrizmizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C54E31C1EA28410009BEDB0 /* Debug */,
+				1C54E31D1EA28410009BEDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C54E31E1EA28410009BEDB0 /* Build configuration list for PBXNativeTarget "PrizmizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C54E31F1EA28410009BEDB0 /* Debug */,
+				1C54E3201EA28410009BEDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C54E2E81EA2840F009BEDB0 /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "00E74862C524363E3D5CE88BA435AA0E92ACC245",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "00E74862C524363E3D5CE88BA435AA0E92ACC245" : 9223372036854775807,
+    "92CBA65579F61C75FEC665D01E78C47FFFAA6B01" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D23EBCC5-682D-4C9E-8522-716E7EB35C38",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "00E74862C524363E3D5CE88BA435AA0E92ACC245" : "MusicHacksWinner\/",
+    "92CBA65579F61C75FEC665D01E78C47FFFAA6B01" : "AudioKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Prizmizer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Prizmizer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VikramSundaram\/MusicHacksWinner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "00E74862C524363E3D5CE88BA435AA0E92ACC245"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/audiokit\/AudioKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92CBA65579F61C75FEC665D01E78C47FFFAA6B01"
+    }
+  ]
+}
